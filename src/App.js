@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "semantic-ui-css/semantic.min.css";
+import "bootstrap/dist/css/bootstrap.css";
+import "./index.css";
 
+import Nav from "./components/navbar";
+import Container1 from "./components/Container1";
+import Container2 from "./components/Container2";
+import Container3 from "./components/Container3";
+
+
+// Color Palette: https://coolors.co/e7d90d-9fce68-353535-ff6f59-dbd3d8
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Nav />
+      <div class="container">
+        <Container1 />
+        <Container2 />
+        <Container3 />        
+      </div>
+    </>
   );
 }
 
