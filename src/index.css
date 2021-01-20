@@ -12,6 +12,24 @@ code {
     monospace;
 }
 
+.main-container {
+  background: #1b1c1d;
+  color: whitesmoke;
+}
+
 .border-visible{
   border: 1px solid burlywood;
+}
+
+.container1a {
+  margin: 5rem;
+  max-width: 18rem;
+}
+
+.container1b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
