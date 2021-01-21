@@ -1,12 +1,5 @@
 import React, { useState } from "react";
-import {
-  Button,
-  Header,
-  Icon,
-  Menu,
-  Segment,
-  Sidebar,
-} from "semantic-ui-react";
+import { Button, Icon, Menu, Sidebar } from "semantic-ui-react";
 
 import Nav from "./navbar";
 import Container1 from "./Container1";
@@ -20,7 +13,7 @@ export default function VerticalSidebar() {
       <Sidebar
         as={Menu}
         animation={"scale down"}
-        direction={"left"}
+        direction={"right"}
         icon="labeled"
         inverted
         vertical
@@ -49,29 +42,12 @@ export default function VerticalSidebar() {
       {/* Page Content Below Here */}
       <Sidebar.Pushable>
         <Sidebar.Pusher dimmed={activeSideBar}>
-          <Nav />
+          <Nav hook={setActiveSideBar} />
+          {/* Passes Sidebar Hook to Navbar */}
           <div class="main-container">
             <Container1 />
             <Container2 />
             <Container3 />
-            <Segment
-              basic
-              //   style
-              style={{
-                alignItems: "center",
-                display: "flex",
-                flexDirection: "column",
-              }}
-            >
-              <Header as="h3">Application Content</Header>
-              <Button
-                onClick={() => {
-                  setActiveSideBar(true);
-                }}
-              >
-                Scale Down
-              </Button>
-            </Segment>
           </div>
         </Sidebar.Pusher>
       </Sidebar.Pushable>

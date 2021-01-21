@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Container } from "semantic-ui-react";
 import { Menu, Segment } from "semantic-ui-react";
 
-export default function Navbar() {
+export default function Navbar({hook}) {
   // Returns current route
   const pathname = window.location.pathname;
   // Gets a string from the pathname after the backlash
@@ -29,12 +29,23 @@ export default function Navbar() {
                 color='orange'
                 active={activeItem === "messages"}
                 onClick={handleItemClick}
+                // as={Link}
+                // to="/"
               />
               <Menu.Item
                 name="friends"
                 color='green'
                 active={activeItem === "friends"}
                 onClick={handleItemClick}
+                // as={Link}
+                // to="/"
+              />
+              <Menu.Item
+                name="Social"
+                color='yellow'
+                onClick={hook}
+                // as={Link}
+                // to="/"
               />
             </Menu.Menu>
           </Menu>
