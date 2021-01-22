@@ -25,17 +25,17 @@ export default function Navbar({hook}) {
                 // to="/"
               />
               <Menu.Item
-                name="messages"
+                name="Services"
                 color='orange'
-                active={activeItem === "messages"}
+                active={activeItem === "Services"}
                 onClick={handleItemClick}
                 // as={Link}
                 // to="/"
               />
               <Menu.Item
-                name="friends"
+                name="Partnerships"
                 color='green'
-                active={activeItem === "friends"}
+                active={activeItem === "Partnerships"}
                 onClick={handleItemClick}
                 // as={Link}
                 // to="/"

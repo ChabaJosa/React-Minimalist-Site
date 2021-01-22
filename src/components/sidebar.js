@@ -26,24 +26,36 @@ export default function VerticalSidebar() {
               setActiveSideBar(false);
             }}
           >
-            <Icon name="home" />
-            Home
+            <Icon name="undo" />
+            Back
           </Button>
         </Menu.Item>
         <Menu.Item as="a">
-          <Icon name="gamepad" />
-          Games
+          <Icon name="instagram" />
+          Instagram
         </Menu.Item>
         <Menu.Item as="a">
-          <Icon name="camera" />
-          Channels
+          <Icon name="facebook" />
+          Facebook
+        </Menu.Item>
+        <Menu.Item as="a">
+          <Icon name="twitter" />
+          Twitter
+        </Menu.Item>
+        <Menu.Item as="a">
+          <Icon name="mobile" />
+          Apps 
+        </Menu.Item>
+        <Menu.Item as="a">
+          <Icon name="code" />
+          Coding 
         </Menu.Item>
       </Sidebar>
       {/* Page Content Below Here */}
       <Sidebar.Pushable>
         <Sidebar.Pusher dimmed={activeSideBar}>
-          <Nav hook={setActiveSideBar} />
           {/* Passes Sidebar Hook to Navbar */}
+          <Nav hook={setActiveSideBar} /> 
           <div class="main-container">
             <Container1 />
             <Container2 />

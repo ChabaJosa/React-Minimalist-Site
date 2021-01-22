@@ -7,7 +7,7 @@ export default function Container1() {
       <div class="row">
         <div class="col-lg-6 col-12">
           <div class="container1a">
-            <Header as="h6" color="yellow">
+            <Header as="h6" color="yellow" className={'LineEffect'}>
               Welcome to the future.
             </Header>
             <Header as="h1" size="huge" color="red">
