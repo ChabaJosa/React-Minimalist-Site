@@ -41,7 +41,6 @@ code {
   align-items: center;
   text-align: center;
 }
-
 .LineEffect::before,
 .LineEffect::after {
   content: "";
@@ -49,7 +48,6 @@ code {
   margin: 0 20px 0 0;
   flex: 1 0 20px;
 }
-
 .LineEffect::after {
   margin: 0 0 0 20px;
 }
