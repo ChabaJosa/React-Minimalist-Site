@@ -10,6 +10,7 @@ export default function VerticalSidebar() {
   const [activeSideBar, setActiveSideBar] = useState(false);
   return (
     <div>
+      {/* SideBar Controls Here */}
       <Sidebar
         as={Menu}
         animation={"scale down"}
@@ -20,6 +21,8 @@ export default function VerticalSidebar() {
         visible={activeSideBar}
         width="thin"
       >
+
+        {/* SideBar Items Here */}
         <Menu.Item as="a">
           <Button
             onClick={() => {
@@ -51,6 +54,7 @@ export default function VerticalSidebar() {
           Coding 
         </Menu.Item>
       </Sidebar>
+
       {/* Page Content Below Here */}
       <Sidebar.Pushable>
         <Sidebar.Pusher dimmed={activeSideBar}>
@@ -63,6 +67,8 @@ export default function VerticalSidebar() {
           </div>
         </Sidebar.Pusher>
       </Sidebar.Pushable>
+
+
     </div>
   );
 }
