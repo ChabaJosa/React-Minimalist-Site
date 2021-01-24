@@ -51,3 +51,12 @@ code {
 .LineEffect::after {
   margin: 0 0 0 20px;
 }
+
+.box-header{
+  padding-top: 1rem;
+}
+
+.contrast{
+  background-color: White; 
+  color: #404040
+}
