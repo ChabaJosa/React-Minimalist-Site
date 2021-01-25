@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+}
+
+#root{
+  background:#1b1c1d;
+  min-height: 100vh;
 }
 
 code {
@@ -57,6 +63,6 @@ code {
 }
 
 .contrast{
-  background-color: White; 
-  color: #404040
+  background: linear-gradient(to right, #304352, #d7d2cc); 
+  color: whitesmoke
 }

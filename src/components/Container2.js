@@ -56,7 +56,7 @@ export default function Container2() {
             </Container>
           </Segment>
         </div>
-        <div class="col-lg-4 col-12 box-header " >
+        <div class="col-lg-4 col-12 box-header" >
           {" "}
           <Header as="h3" color="yellow" className={"LineEffect"}>
             Graphic Design
