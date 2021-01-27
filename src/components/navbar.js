@@ -17,34 +17,31 @@ export default function Navbar({ hook }) {
         <Segment inverted>
           <Menu inverted secondary>
             <Menu.Menu position="right">
-              <NavLink to={'/'}>
+              <NavLink to={"/"}>
                 <Menu.Item
+                  // style={{ textDecoration: "none" }}
                   name="home"
                   color="red"
                   active={activeItem === "home"}
                   onClick={handleItemClick}
-                  // as={Link}
-                  // to="/"
                 />
               </NavLink>
-              <NavLink to={'/Services'}>
+              <NavLink to={"/Services"}>
                 <Menu.Item
+                  // style={{ textDecoration: "none" }}
                   name="Services"
                   color="orange"
                   active={activeItem === "Services"}
                   onClick={handleItemClick}
-                  // as={Link}
-                  // to="/"
                 />
               </NavLink>
-              <NavLink to={'/Partnerships'}>
+              <NavLink to={"/Partnerships"}>
                 <Menu.Item
+                  // style={{ textDecoration: "none" }}
                   name="Partnerships"
                   color="green"
                   active={activeItem === "Partnerships"}
                   onClick={handleItemClick}
-                  // as={Link}
-                  // to="/"
                 />
               </NavLink>
               <Menu.Item

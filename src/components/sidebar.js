@@ -60,11 +60,11 @@ export default function VerticalSidebar() {
         <Sidebar.Pusher dimmed={activeSideBar}>
           {/* Passes Sidebar Hook to Navbar */}
           {/* <Nav hook={setActiveSideBar} />  */}
-          <div class="main-container">
+          {/* <div class="main-container">
             <Container1 />
             <Container2 />
             <Container3 />
-          </div>
+          </div> */}
         </Sidebar.Pusher>
       </Sidebar.Pushable>
 
