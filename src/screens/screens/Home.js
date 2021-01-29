@@ -1,8 +1,8 @@
 import React from "react";
 // import Nav from "./navbar";
-import Container1 from "./Container1";
-import Container2 from "./Container2";
-import Container3 from "./Container3";
+import Container1 from "../components/Container1";
+import Container2 from "../components/Container2";
+import Container3 from "../components/Container3";
 
 export default function Home() {
   return (

@@ -1,6 +1,8 @@
 import React from "react";
-import { Header, Image, Segment, Button } from "semantic-ui-react";
-import Logo from "../pics/logo-white-short.png";
+import { Header, Image, Segment } from "semantic-ui-react";
+import Logo from "../../pics/logo-white-short.png";
+import Modal from "./Modal";
+
 export default function Container1() {
   return (
     <>
@@ -24,13 +26,7 @@ export default function Container1() {
 
               }}
             >
-              <Button
-                onClick={() => {
-                  // Something
-                }}
-              >
-                Get Started
-              </Button>
+              <Modal btnText={'Get Started'} />
             </Segment>
           </div>
         </div>

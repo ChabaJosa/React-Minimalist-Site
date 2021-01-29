@@ -6,10 +6,10 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import React, { useState } from "react";
 
 // import HomeSidebar from "./components/sidebar";
-import Home from "./components/Home";
-import Partnerships from "./components/Partnerships";
-import Services from "./components/Services";
-import Navbar from "./components/navbar";
+import Home from "./screens/screens/Home";
+import Partnerships from "./screens/screens/Partnerships";
+import Services from "./screens/screens/Services";
+import Navbar from "./screens/screens/navbar";
 import { Button, Icon, Menu, Sidebar } from "semantic-ui-react";
 
 // Color Palette: https://coolors.co/e7d90d-9fce68-353535-ff6f59-dbd3d8

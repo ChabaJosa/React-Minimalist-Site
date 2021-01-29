@@ -1,6 +1,6 @@
 import React from "react";
 import { Header, Image, Segment, Container, Divider } from "semantic-ui-react";
-import Img from "../pics/SocialPng.png";
+import Img from "../../pics/SocialPng.png";
 
 export default function Container3() {
   return (
