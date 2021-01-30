@@ -43,10 +43,19 @@ function App() {
           <Icon name="instagram" />
           Instagram
         </Menu.Item>
-        <Menu.Item as="a">
-          <Icon name="facebook" />
-          Facebook
-        </Menu.Item>
+        <a
+          href="https://www.facebook.com/mediateamgroup/"
+          // https://www.instagram.com/mediateamgroup/
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{textDecoration: 'none'}}
+          className='sidebar-link'
+        >
+          <Menu.Item as="a">
+            <Icon name="facebook" />
+            Facebook
+          </Menu.Item>
+        </a>
         <Menu.Item as="a">
           <Icon name="twitter" />
           Twitter
