@@ -17,7 +17,7 @@ function ModalExampleDimmer({ btnText }) {
       <Button onClick={() => show()}>{btnText}</Button>
       <Modal basic dimmer={"blurring"} open={isShown} onClose={() => hide()}>
         <Modal.Header>
-          We're a phone call or whatsapp message away!
+          Contact
         </Modal.Header>
         <Modal.Content>
           Let's see what we can do for you. We're a phone call or whatsapp

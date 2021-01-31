@@ -40,33 +40,64 @@ function App() {
           </Button>
         </Menu.Item>
         <Menu.Item as="a">
-          <Icon name="instagram" />
-          Instagram
+          <a
+            href="https://www.instagram.com/mediateamgroup/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none" }}
+            className="sidebar-link ui.labeled.icon.menu item"
+          >
+            <Icon name="instagram" />
+            Instagram
+          </a>
         </Menu.Item>
-        <a
-          href="https://www.facebook.com/mediateamgroup/"
-          // https://www.instagram.com/mediateamgroup/
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{textDecoration: 'none'}}
-          className='sidebar-link'
-        >
-          <Menu.Item as="a">
+        <Menu.Item as="a">
+          <a
+            href="https://www.facebook.com/mediateamgroup/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none" }}
+            className="sidebar-link ui.labeled.icon.menu item"
+          >
             <Icon name="facebook" />
             Facebook
-          </Menu.Item>
-        </a>
-        <Menu.Item as="a">
-          <Icon name="twitter" />
-          Twitter
+          </a>
         </Menu.Item>
         <Menu.Item as="a">
-          <Icon name="mobile" />
-          Apps
+          <a
+            href="https://www.twitter.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none" }}
+            className="sidebar-link ui.labeled.icon.menu item"
+          >
+            <Icon name="twitter" />
+            Twitter
+          </a>
         </Menu.Item>
         <Menu.Item as="a">
-          <Icon name="code" />
-          Coding
+          <a
+            href="https://www.apple.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none" }}
+            className="sidebar-link ui.labeled.icon.menu item"
+          >
+            <Icon name="mobile" />
+            Apps
+          </a>
+        </Menu.Item>
+        <Menu.Item as="a">
+          <a
+            href="https://www.theiconicmedia.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none" }}
+            className="sidebar-link ui.labeled.icon.menu item"
+          >
+            <Icon name="code" />
+            Coding
+          </a>
         </Menu.Item>
       </Sidebar>
 
