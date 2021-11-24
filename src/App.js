@@ -6,7 +6,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import React, { useState } from "react";
 
 import Home from "./screens/screens/Home";
-import Partnerships from "./screens/screens/Partnerships";
+// import Partnerships from "./screens/screens/Partnerships";
 import Services from "./screens/screens/Services";
 import Navbar from "./screens/screens/navbar";
 import { Button, Icon, Menu, Sidebar } from "semantic-ui-react";

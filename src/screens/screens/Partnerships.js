@@ -1,5 +1,5 @@
 import React from 'react'
-import Background from '../../pics/background.jpeg'
+// import Background from '../../pics/background.jpeg'
 
 export default function Partnerships() {
     return (
