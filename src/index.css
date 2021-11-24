@@ -5,11 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
 }
 
-#root{
-  background:#1b1c1d;
+#root {
+  background: #1b1c1d;
   min-height: 100vh;
 }
 
@@ -58,33 +57,79 @@ code {
   margin: 0 0 0 20px;
 }
 
-.box-header{
+.box-header {
   padding-top: 1rem;
 }
 
-.contrast{
-  background: linear-gradient(to right, #304352, #d7d2cc); 
-  color: whitesmoke
+.contrast {
+  background: linear-gradient(to right, #304352, #d7d2cc);
+  color: whitesmoke;
 }
 
-.parent-background > div{
-  background: transparent!important;
+.parent-background > div {
+  background: transparent !important;
 }
-.active-form-field :hover{
-  box-shadow: 0 0 0 2px #22be34 inset!important;
-  color: #2ecc40!important;
+.active-form-field :hover {
+  box-shadow: 0 0 0 2px #22be34 inset !important;
+  color: #2ecc40 !important;
 }
 
-.sidebar-link::before{
+.sidebar-link::before {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   width: 100%;
   height: 1px;
-  background: rgba(34,36,38,.1);
+  background: rgba(34, 36, 38, 0.1);
 }
 
 .menu > a {
-  text-decoration: none
+  text-decoration: none;
 }
+
+/*  Partnerships */
+
+.background-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../src//pics/background.jpeg"); 
+
+  /* margin-top: -50px;   */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Transition */
+  /* animation: image 20s infinite alternate; */
+
+  /* Full height */
+  min-height: 100vh;
+
+  /* Flex Stuff */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 10vw;
+}
+
+/* @keyframes image {
+  0% {
+    background-image: url("../src/imgs/lobby.jpg");
+  }
+  25% {
+    background-image: url("../src/imgs/fbo.jpg");
+  }
+  50% {
+    background-image: url("../src/imgs/hangar.jpg");
+  }
+  75% {
+    background-image: url("../src/imgs/cafe.jpg");
+  }
+  100% {
+    background-image: url("../src/imgs/pilotshop.jpg");
+  }
+} */
+

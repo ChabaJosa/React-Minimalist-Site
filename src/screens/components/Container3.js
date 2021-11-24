@@ -1,6 +1,6 @@
 import React from "react";
 import { Header, Image, Segment, Container, Divider } from "semantic-ui-react";
-import Img from "../../pics/SocialPng.png";
+import Img from "../../pics/runners.png";
 
 export default function Container3() {
   return (
@@ -8,7 +8,11 @@ export default function Container3() {
       <div class="row">
         <div class="col-lg-6 col-12">
           <div class="container1b">
-            <Image src={Img} size="medium" />
+            <Image src={Img} size="medium" circular />
+            {/* <video width="320" height="240" controls>
+              <source src='http://techslides.com/demos/sample-videos/small.ogv' type='video/ogg'>
+              <source src="/src/pics" type='video/mp4'>
+            </video> */}
           </div>
         </div>
         <div class="col-lg-6 col-12">
@@ -19,7 +23,7 @@ export default function Container3() {
             className={"LineEffect"}
             style={{ paddingTop: "1rem" }}
           >
-            In Business for decades...
+            30 años de entrenamiento...
           </Header>
           <Segment
             basic

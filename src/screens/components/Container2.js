@@ -7,7 +7,7 @@ export default function Container2() {
       <div class="row">
         <div class="col-lg-4 col-12 box-header">
           <Header as="h3" color="green" className={"LineEffect"}>
-            App Design
+            Entrenamiento
           </Header>
           <Segment
             basic
@@ -22,10 +22,8 @@ export default function Container2() {
             <Container textAlign="justified">
               <Divider />
               <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-                commodo ligula eget dolor. Aenean massa strong. Cum sociis
-                natoque penatibus et magnis dis parturient montes, nascetur
-                ridiculus mus. 
+              Líderes en salud y preparación física, programa dirigido para
+              todos a su paso y a su ritmo, motívate!
               </p>
             </Container>
           </Segment>
@@ -33,7 +31,7 @@ export default function Container2() {
         <div class="col-lg-4 col-12 box-header">
           {" "}
           <Header as="h3" color="orange" className={"LineEffect"}>
-            Web Design
+            Salud
           </Header>
           <Segment
             basic
@@ -59,7 +57,7 @@ export default function Container2() {
         <div class="col-lg-4 col-12 box-header" >
           {" "}
           <Header as="h3" color="yellow" className={"LineEffect"}>
-            Graphic Design
+            Diversion
           </Header>
           <Segment
             basic

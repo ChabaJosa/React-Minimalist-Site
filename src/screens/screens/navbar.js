@@ -26,16 +26,16 @@ export default function Navbar({ hook }) {
                   onClick={handleItemClick}
                 />
               </NavLink>
-              <NavLink to={"/Services"}>
+              <NavLink to={"/Servicios"}>
                 <Menu.Item
                   // style={{ textDecoration: "none" }}
-                  name="Services"
+                  name="Servicios"
                   color="orange"
-                  active={activeItem === "Services"}
+                  active={activeItem === "Servicios"}
                   onClick={handleItemClick}
                 />
               </NavLink>
-              <NavLink to={"/Partnerships"}>
+              {/* <NavLink to={"/Partnerships"}>
                 <Menu.Item
                   // style={{ textDecoration: "none" }}
                   name="Partnerships"
@@ -43,9 +43,9 @@ export default function Navbar({ hook }) {
                   active={activeItem === "Partnerships"}
                   onClick={handleItemClick}
                 />
-              </NavLink>
+              </NavLink> */}
               <Menu.Item
-                name="Social"
+                name="Redes"
                 color="yellow"
                 onClick={hook}
                 // as={Link}

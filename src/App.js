@@ -5,7 +5,6 @@ import "./index.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import React, { useState } from "react";
 
-// import HomeSidebar from "./components/sidebar";
 import Home from "./screens/screens/Home";
 import Partnerships from "./screens/screens/Partnerships";
 import Services from "./screens/screens/Services";
@@ -41,7 +40,7 @@ function App() {
         </Menu.Item>
         <Menu.Item as="a">
           <a
-            href="https://www.instagram.com/mediateamgroup/"
+            href="https://www.instagram.com/teachersegnini/"
             target="_blank"
             rel="noopener noreferrer"
             style={{ textDecoration: "none" }}
@@ -51,7 +50,7 @@ function App() {
             Instagram
           </a>
         </Menu.Item>
-        <Menu.Item as="a">
+        {/* <Menu.Item as="a">
           <a
             href="https://www.facebook.com/mediateamgroup/"
             target="_blank"
@@ -62,10 +61,10 @@ function App() {
             <Icon name="facebook" />
             Facebook
           </a>
-        </Menu.Item>
+        </Menu.Item> */}
         <Menu.Item as="a">
           <a
-            href="https://www.twitter.com/"
+            href="https://www.twitter.com/javiersegnini"
             target="_blank"
             rel="noopener noreferrer"
             style={{ textDecoration: "none" }}
@@ -75,7 +74,7 @@ function App() {
             Twitter
           </a>
         </Menu.Item>
-        <Menu.Item as="a">
+        {/* <Menu.Item as="a">
           <a
             href="https://www.apple.com/"
             target="_blank"
@@ -86,8 +85,8 @@ function App() {
             <Icon name="mobile" />
             Apps
           </a>
-        </Menu.Item>
-        <Menu.Item as="a">
+        </Menu.Item> */}
+        {/* <Menu.Item as="a">
           <a
             href="https://www.theiconicmedia.com/"
             target="_blank"
@@ -98,7 +97,7 @@ function App() {
             <Icon name="code" />
             Coding
           </a>
-        </Menu.Item>
+        </Menu.Item> */}
       </Sidebar>
 
       {/* Page Content and Router Below Here */}
@@ -111,8 +110,8 @@ function App() {
             </>
             <Switch>
               <Route exact path="/" component={Home}></Route>
-              <Route path="/Services" component={Services}></Route>
-              <Route path="/Partnerships" component={Partnerships}></Route>
+              <Route path="/Servicios" component={Services}></Route>
+              {/* <Route path="/Partnerships" component={Partnerships}></Route> */}
             </Switch>
             {/* <Footer /> */}
           </BrowserRouter>
